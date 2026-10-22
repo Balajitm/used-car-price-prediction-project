@@ -1,0 +1,47 @@
+{
+  "input": "data\\processed\\used_car_features.csv",
+  "target": "Selling_Price_Lakh",
+  "random_state": 42,
+  "test_size": 0.2,
+  "train_rows": 80000,
+  "test_rows": 20000,
+  "numeric_columns": [
+    "Year",
+    "Car_Age",
+    "KM_Driven",
+    "KM_Per_Year",
+    "Owner",
+    "Present_Price_Lakh",
+    "Condition_Score",
+    "Engine_CC",
+    "Mileage_KMPL",
+    "Car_Age_Squared",
+    "Log_KM_Driven",
+    "Log_Present_Price_Lakh",
+    "Condition_Age_Interaction",
+    "Recent_Vehicle"
+  ],
+  "categorical_columns": [
+    "Brand",
+    "Model",
+    "Fuel_Type",
+    "Transmission",
+    "Location",
+    "Insurance_Valid",
+    "Accident_History",
+    "Service_History",
+    "Dealer_or_Individual"
+  ],
+  "transformed_train_shape": [
+    80000,
+    82
+  ],
+  "transformed_test_shape": [
+    20000,
+    82
+  ],
+  "train_target_mean_lakh": 5.300032375,
+  "test_target_mean_lakh": 5.311914,
+  "unknown_categories": "Ignored by OneHotEncoder(handle_unknown='ignore').",
+  "fit_scope": "Preprocessor fitted on training rows only."
+}

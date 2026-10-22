@@ -1,0 +1,35 @@
+{
+  "reference_year": 2026,
+  "original_rows": 100000,
+  "final_rows": 100000,
+  "rows_removed_for_invalid_values": 0,
+  "duplicate_rows_removed": 0,
+  "service_history_values_filled": 7075,
+  "removed_columns": [
+    "Car_ID",
+    "Demand_Score",
+    "Depreciation_Percent"
+  ],
+  "numeric_missing_values_deferred_to_pipeline": {},
+  "remaining_columns": [
+    "Brand",
+    "Model",
+    "Year",
+    "Car_Age",
+    "KM_Driven",
+    "KM_Per_Year",
+    "Fuel_Type",
+    "Transmission",
+    "Owner",
+    "Location",
+    "Present_Price_Lakh",
+    "Insurance_Valid",
+    "Accident_History",
+    "Service_History",
+    "Condition_Score",
+    "Engine_CC",
+    "Mileage_KMPL",
+    "Dealer_or_Individual",
+    "Selling_Price_Lakh"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "best_model_by_test_rmse": "HistGradientBoosting",
+  "results_file": "reports\\baseline_results.csv",
+  "model_file": "models\\best_baseline.joblib",
+  "train_rows": 80000,
+  "test_rows": 20000
+}

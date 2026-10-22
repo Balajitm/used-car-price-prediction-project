@@ -1,0 +1,52 @@
+{
+  "model": "HistGradientBoosting",
+  "train_rows": 80000,
+  "test_rows": 20000,
+  "train_metrics": {
+    "mae": 0.22341446130646395,
+    "rmse": 0.3400953335253651,
+    "r2": 0.9940023646467594,
+    "mape_percent": 4.646249913835093,
+    "mean_error_lakh": -7.587946655657447e-05,
+    "median_absolute_error_lakh": 0.14069649054792155
+  },
+  "test_metrics": {
+    "mae": 0.24022613347366267,
+    "rmse": 0.3781249204716203,
+    "r2": 0.9927689208452362,
+    "mape_percent": 4.838300211389211,
+    "mean_error_lakh": -0.004385118206973754,
+    "median_absolute_error_lakh": 0.14662202527062773
+  },
+  "residual_quantiles_lakh": {
+    "0.05": -0.5703903597958241,
+    "0.25": -0.14846120354956968,
+    "0.5": -0.002176494862965561,
+    "0.75": 0.14479062556591632,
+    "0.95": 0.5516837827355864
+  },
+  "permutation_importance_sample_rows": 5000,
+  "top_features": [
+    "numeric__Present_Price_Lakh",
+    "numeric__Condition_Age_Interaction",
+    "numeric__Year",
+    "numeric__KM_Driven",
+    "numeric__Engine_CC",
+    "categorical__Accident_History_No",
+    "numeric__Owner",
+    "numeric__Car_Age",
+    "categorical__Transmission_Automatic",
+    "categorical__Service_History_Full",
+    "categorical__Fuel_Type_CNG",
+    "categorical__Fuel_Type_Electric",
+    "categorical__Accident_History_Yes",
+    "numeric__KM_Per_Year",
+    "categorical__Fuel_Type_Petrol"
+  ],
+  "importance_file": "reports\\permutation_importance.csv",
+  "plots": [
+    "reports\\evaluation_figures\\01_actual_vs_predicted.png",
+    "reports\\evaluation_figures\\02_residuals.png",
+    "reports\\evaluation_figures\\03_error_distribution.png"
+  ]
+}

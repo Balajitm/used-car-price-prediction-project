@@ -1,0 +1,49 @@
+{
+  "rows_analysed": 100000,
+  "plots": [
+    "reports\\figures\\01_price_distribution.png",
+    "reports\\figures\\02_age_vs_price.png",
+    "reports\\figures\\03_km_vs_price.png",
+    "reports\\figures\\04_brand_price.png",
+    "reports\\figures\\05_fuel_price.png",
+    "reports\\figures\\06_transmission_price.png",
+    "reports\\figures\\07_owner_price.png",
+    "reports\\figures\\08_location_price.png",
+    "reports\\figures\\09_correlation_matrix.png"
+  ],
+  "target": {
+    "mean_lakh": 5.3024087,
+    "median_lakh": 4.02,
+    "q1_lakh": 2.29,
+    "q3_lakh": 6.94
+  },
+  "group_median_price_lakh": {
+    "brand_highest": {
+      "category": "Toyota",
+      "value": 9.695
+    },
+    "brand_lowest": {
+      "category": "Maruti",
+      "value": 2.54
+    },
+    "fuel_highest": {
+      "category": "Electric",
+      "value": 4.29
+    },
+    "location_highest": {
+      "category": "Mumbai",
+      "value": 4.31
+    }
+  },
+  "target_correlations": {
+    "Car_Age": -0.6790948789140926,
+    "Year": 0.6790948789140829,
+    "KM_Driven": -0.6457631135760644,
+    "Present_Price_Lakh": 0.6002544685713169,
+    "Engine_CC": 0.5329943076951617,
+    "Mileage_KMPL": -0.4482304045877382,
+    "KM_Per_Year": 0.25977713763422616,
+    "Condition_Score": 0.06465409519033877,
+    "Owner": -0.03743456748523059
+  }
+}

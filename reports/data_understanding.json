@@ -1,0 +1,302 @@
+{
+  "source": "dataset\\used_car_dataset_100000.csv",
+  "rows": 100000,
+  "columns": 22,
+  "column_order": [
+    "Car_ID",
+    "Brand",
+    "Model",
+    "Year",
+    "Car_Age",
+    "KM_Driven",
+    "KM_Per_Year",
+    "Fuel_Type",
+    "Transmission",
+    "Owner",
+    "Location",
+    "Present_Price_Lakh",
+    "Insurance_Valid",
+    "Accident_History",
+    "Service_History",
+    "Condition_Score",
+    "Engine_CC",
+    "Mileage_KMPL",
+    "Dealer_or_Individual",
+    "Demand_Score",
+    "Depreciation_Percent",
+    "Selling_Price_Lakh"
+  ],
+  "numeric_columns": [
+    "Year",
+    "Car_Age",
+    "KM_Driven",
+    "KM_Per_Year",
+    "Owner",
+    "Present_Price_Lakh",
+    "Condition_Score",
+    "Engine_CC",
+    "Mileage_KMPL",
+    "Demand_Score",
+    "Depreciation_Percent",
+    "Selling_Price_Lakh"
+  ],
+  "categorical_columns": [
+    "Car_ID",
+    "Brand",
+    "Model",
+    "Fuel_Type",
+    "Transmission",
+    "Location",
+    "Insurance_Valid",
+    "Accident_History",
+    "Service_History",
+    "Dealer_or_Individual"
+  ],
+  "missing_values": {
+    "Service_History": 7075
+  },
+  "unique_values": {
+    "Car_ID": 100000,
+    "Brand": 13,
+    "Model": 28,
+    "Year": 14,
+    "Car_Age": 14,
+    "KM_Driven": 63832,
+    "KM_Per_Year": 16516,
+    "Fuel_Type": 4,
+    "Transmission": 2,
+    "Owner": 4,
+    "Location": 12,
+    "Present_Price_Lakh": 3217,
+    "Insurance_Valid": 2,
+    "Accident_History": 2,
+    "Service_History": 2,
+    "Condition_Score": 71,
+    "Engine_CC": 10,
+    "Mileage_KMPL": 145,
+    "Dealer_or_Individual": 2,
+    "Demand_Score": 73,
+    "Depreciation_Percent": 898,
+    "Selling_Price_Lakh": 2789
+  },
+  "categorical_examples": {
+    "Car_ID": [
+      "CAR000001",
+      "CAR000002",
+      "CAR000003",
+      "CAR000004",
+      "CAR000005",
+      "CAR000006",
+      "CAR000007",
+      "CAR000008",
+      "CAR000009",
+      "CAR000010",
+      "CAR000011",
+      "CAR000012",
+      "CAR000013",
+      "CAR000014",
+      "CAR000015",
+      "CAR000016",
+      "CAR000017",
+      "CAR000018",
+      "CAR000019",
+      "CAR000020"
+    ],
+    "Brand": [
+      "Ford",
+      "Honda",
+      "Hyundai",
+      "Kia",
+      "MG",
+      "Mahindra",
+      "Maruti",
+      "Nissan",
+      "Renault",
+      "Skoda",
+      "Tata",
+      "Toyota",
+      "Volkswagen"
+    ],
+    "Model": [
+      "Altroz",
+      "Amaze",
+      "Baleno",
+      "City",
+      "Creta",
+      "Duster",
+      "Dzire",
+      "EcoSport",
+      "Fortuner",
+      "Harrier",
+      "Hector",
+      "Innova Crysta",
+      "Kwid",
+      "Magnite",
+      "Nexon",
+      "Polo",
+      "Punch",
+      "Seltos",
+      "Slavia",
+      "Sonet"
+    ],
+    "Fuel_Type": [
+      "CNG",
+      "Diesel",
+      "Electric",
+      "Petrol"
+    ],
+    "Transmission": [
+      "Automatic",
+      "Manual"
+    ],
+    "Location": [
+      "Ahmedabad",
+      "Bengaluru",
+      "Chennai",
+      "Coimbatore",
+      "Delhi",
+      "Hyderabad",
+      "Jaipur",
+      "Kochi",
+      "Kolkata",
+      "Madurai",
+      "Mumbai",
+      "Pune"
+    ],
+    "Insurance_Valid": [
+      "No",
+      "Yes"
+    ],
+    "Accident_History": [
+      "No",
+      "Yes"
+    ],
+    "Service_History": [
+      "Full",
+      "Partial"
+    ],
+    "Dealer_or_Individual": [
+      "Dealer",
+      "Individual"
+    ]
+  },
+  "numeric_summary": {
+    "Year": {
+      "mean": 2018.51488,
+      "std": 4.029134016734767,
+      "min": 2012.0,
+      "25%": 2015.0,
+      "50%": 2019.0,
+      "75%": 2022.0,
+      "max": 2025.0
+    },
+    "Car_Age": {
+      "mean": 7.48512,
+      "std": 4.029134016734768,
+      "min": 1.0,
+      "25%": 4.0,
+      "50%": 7.0,
+      "75%": 11.0,
+      "max": 14.0
+    },
+    "KM_Driven": {
+      "mean": 57178.01413,
+      "std": 28572.917461356177,
+      "min": 3000.0,
+      "25%": 34259.75,
+      "50%": 57084.0,
+      "75%": 79959.25,
+      "max": 149449.0
+    },
+    "KM_Per_Year": {
+      "mean": 8552.47009,
+      "std": 4322.941320772469,
+      "min": 600.0,
+      "25%": 6547.0,
+      "50%": 7629.0,
+      "75%": 9127.0,
+      "max": 57353.0
+    },
+    "Owner": {
+      "mean": 0.72618,
+      "std": 0.8697184439240764,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 3.0
+    },
+    "Present_Price_Lakh": {
+      "mean": 12.1593476,
+      "std": 5.906443112658977,
+      "min": 3.97,
+      "25%": 8.3,
+      "50%": 10.73,
+      "75%": 14.55,
+      "max": 45.0
+    },
+    "Condition_Score": {
+      "mean": 7.6755580000000005,
+      "std": 1.301729900418415,
+      "min": 3.0,
+      "25%": 6.8,
+      "50%": 7.7,
+      "75%": 8.6,
+      "max": 10.0
+    },
+    "Engine_CC": {
+      "mean": 1452.64767,
+      "std": 413.6092276527485,
+      "min": 999.0,
+      "25%": 1197.0,
+      "50%": 1199.0,
+      "75%": 1498.0,
+      "max": 2755.0
+    },
+    "Mileage_KMPL": {
+      "mean": 18.123596000000003,
+      "std": 2.626292748899107,
+      "min": 10.9,
+      "25%": 16.5,
+      "50%": 18.1,
+      "75%": 19.3,
+      "max": 25.9
+    },
+    "Demand_Score": {
+      "mean": 6.982204,
+      "std": 1.1554709228338613,
+      "min": 2.8,
+      "25%": 6.2,
+      "50%": 7.0,
+      "75%": 7.8,
+      "max": 10.0
+    },
+    "Depreciation_Percent": {
+      "mean": 56.505485,
+      "std": 25.888391732648053,
+      "min": 1.9,
+      "25%": 38.2,
+      "50%": 63.6,
+      "75%": 78.8,
+      "max": 91.8
+    },
+    "Selling_Price_Lakh": {
+      "mean": 5.3024087,
+      "std": 4.4025933936090675,
+      "min": 0.49,
+      "25%": 2.29,
+      "50%": 4.02,
+      "75%": 6.94,
+      "max": 42.16
+    }
+  },
+  "target_summary": {
+    "name": "Selling_Price_Lakh",
+    "mean_lakh": 5.3024087,
+    "median_lakh": 4.02,
+    "std_lakh": 4.4025933936090675,
+    "min_lakh": 0.49,
+    "max_lakh": 42.16,
+    "skewness": 2.4214540587381372
+  }
+}
